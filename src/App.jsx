@@ -1,8 +1,8 @@
 import { useState } from "react";
-import LoginForm from "../components/LoginForm.jsx";
-import SignupForm from "../components/SignupForm.jsx";
-import Toast from "../components/Toast.jsx";
-import Footer from "../components/Footer.jsx";
+import LoginForm from "./components/LoginForm.jsx";
+import SignupForm from "./components/SignupForm.jsx";
+import Toast from "./components/Toast.jsx";
+import Footer from "./components/Footer.jsx";
 
 /**
  * App
