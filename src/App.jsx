@@ -2,6 +2,7 @@ import { useState } from "react";
 import LoginForm from "../components/LoginForm.jsx";
 import SignupForm from "../components/SignupForm.jsx";
 import Toast from "../components/Toast.jsx";
+import Footer from "../components/Footer.jsx";
 
 /**
  * App
@@ -77,6 +78,7 @@ function App() {
 
       {/* Toast at root level */}
       <Toast visible={toast.visible} message={toast.message} />
+      <Footer />
     </>
   );
 }

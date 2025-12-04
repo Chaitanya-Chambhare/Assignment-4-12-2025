@@ -253,6 +253,18 @@ select.error {
   transform: translateY(0);
 }
 
+.app-footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.footer-name {
+  color: #f97316; 
+  font-weight: 600;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
