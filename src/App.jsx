@@ -61,14 +61,14 @@ function App() {
           {/* Forms */}
           {activeTab === "login" && (
             <LoginForm
-              onSuccess={() => showToast("Login successful (demo) ✅")}
+              onSuccess={() => showToast("Login successful")}
               switchToSignup={() => handleTabChange("signup")}
             />
           )}
 
           {activeTab === "signup" && (
             <SignupForm
-              onSuccess={() => showToast("Signup successful (demo) 🎉")}
+              onSuccess={() => showToast("Signup successful")}
               switchToLogin={() => handleTabChange("login")}
             />
           )}
